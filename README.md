@@ -1,3 +1,3 @@
 # estudos-javascript-async
-npm init -y
+npm init -y  <br />
 npm i -s axios
