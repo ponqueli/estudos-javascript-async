@@ -11,7 +11,7 @@ const axios = require('axios')
 //     console.log(dados)
 // })()
 
-//then encadeadas
+//then encadeadas 
 axios.get(`https://swapi.dev/api/people/2`)
     .then(resp => resp.data)
     .then(personagem => personagem.films[0])
